@@ -195,6 +195,7 @@ namespace PrincipiosSOLID
       this.amount = amount;
     }
 
+    // delega la llamada al objeto AccountType
     public string Withdraw()
     {
       return accountType.Withdraw(amount);
